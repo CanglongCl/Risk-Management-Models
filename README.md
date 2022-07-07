@@ -1,0 +1,2 @@
+# Risk management models
+This repository is the class notes for BEO 3000 Risk management models of Victoria University in markdown by CanglonCl. View the markdown with the newest Typora to access the best experience. 
