@@ -35,7 +35,7 @@ Unit Lecturer Professor Jing Zhongbo: zbjing@cufe.edu.cn
 ## Absolute, Relative and Conditional Risk
 
 - **Absolute risk**: Portfolio should not lose more than 5% of its value in a year.
-- **Relative risk**: Default risk of CCC rated bonds as compared to AAA rated bonds. 
+- **Relative risk**: Default risk of CCC rated bonds as ==compared== to AAA rated bonds. 
 - **Conditional risk**: Probability that a mutual fund will be down more than 8% if ASX200 is down more than 10%.
 
 > **Absolute risk** of a disease is your risk of developing the disease over a time period.
@@ -61,7 +61,7 @@ Financial Risk Management is about ==managing intrinsic risk== and ==reducing ex
 
 Changes in the value of investment (loss) due to the changes in market prices or rates.
 
-#### Interest rate risk
+### Interest rate risk
 
 The risk of a decline in earnings due to the **movements of Interest rate**
 
@@ -69,16 +69,14 @@ The risk of a decline in earnings due to the **movements of Interest rate**
 
 **Individual:** Any one who lends or borrows is subject to interest rate risk. The **lender** earning a variable rate has the risk of seeing **revenues reduced** by a **decline** in interest rate. The borrower paying a variable rate bears a **high costs** when **interest rates increases**. 
 
-#### Equity price risk
+### Equity price risk
 
 Arises due to the volatility of the share prices.
 
-**Systematic Risk**: Sensitivity of the share price to broad market factors
+- **Systematic Risk**: Sensitivity of the share price to broad market factors
+- **Unsystematic risk**: Sensitivity of the stock price to unique factors of the entity
 
-**Unsystematic risk**: Sensitivity of the stock price to unique factors of the 
-entity
-
-#### Foreign exchange risk
+### Foreign exchange risk
 
 - **Return on foreign assets** is depend on the probable price change, dividend gains and the **change in the foreign exchange rate**.
 - An adverse foreign exchange rate could reduce the return on foreign investment.
@@ -90,7 +88,7 @@ entity
 Loss suffered by a party whereby the counterpart **fails to meet its financial obligations** to the party under the contract.
 
 - Default Risk: Non-payment of interest or principal`本金`
-- Sovereign`主权` Risk: Default by the government
+- Sovereign`主权` Risk: Default`未履行债务` by the government
 - Bankruptcy Risk: Insolvency`破产`, insufficient`不足` collateral`抵押`
 - Downgrade`降级` Risk: Lost credit worthiness
 
@@ -182,8 +180,8 @@ $$
 
 where: 
 
-- $I_t$ = market index at time t
-- $I_{t-1}$=market index at time t-1
+- $I_t$ = market index at time $t$
+- $I_{t-1}$=market index at time $t-1$
 
 ##### Market model
 
@@ -194,8 +192,8 @@ $$
 where:
 
 - $R_{it}$=return for share I for time t
-- $\α_i$= intercept
-- $\β_i$= beta coefficient for share i
+- $\alpha_i$= intercept
+- $\beta_i$= beta coefficient for share i
 - $R_{mt}$= return for market for time t
 - $\varepsilon_{it}$ = residual
 

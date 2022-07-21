@@ -196,11 +196,13 @@ Step2: = Use the function `PERCENTILE.EXC(array, 0.05)` for 95% CI or 5th Percen
 - If the risk has increased recently, the historical model is likely to underestimate the current risk
 - To overcome this weakness, the hybrid VaR assigns ==higher weights to more recent data points== and lower weights to more distant data points
 - The weights are assigned using a ==decay factor==, 
-  - For example, if our decay factor is 0.99 the most recent data point is assigned 1, the second most recent factor is assigned a weight of 0.99, the third most recent factor is assigned a weight of 0.992 and so on.
+  - For example, if our decay factor is 0.99 the most recent data point is assigned 1, the second most recent factor is assigned a weight of $0.99$, the third most recent factor is assigned a weight of $0.99^2$ and so on.
 
 > 下表：
 >
-> Historical weiget: return的百分比分位数
+> - Historical weiget: return的百分比分位数加总，rank/256*100%
+> - Hybrid Weight: $0.99^{(256-t)}$
+> - Hybrid Weight (%): $\dfrac{0.99^{(256-t)}}{\sum_{t=1}^{256}0.99^{256-t}}$
 
 ![image-20220716105757659](img/image-20220716105757659.png)
 

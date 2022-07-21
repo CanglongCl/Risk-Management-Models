@@ -30,7 +30,7 @@ Efficient market hypothesis
 
 ## Expected Shortfall?
 
-==**Expected Shortfall**== is defined as the **average of all losses which are greater than VaR**, i.e. the average loss in the worst (1-C)% cases, where C is the confidence level. Said differently, it gives the expected value of an investment in the worst q% of the cases.
+==**Expected Shortfall**== is defined as the **==average of all losses which are greater than VaR==**, i.e. the average loss in the worst (1-C)% cases, where C is the confidence level. Said differently, it gives the expected value of an investment in the worst q% of the cases.
 
 - VaR does not tell us anything about the tail of the distribution.
 
@@ -51,19 +51,14 @@ See [Investopedia](https://www.investopedia.com/terms/c/conditional_value_at_ris
 The following are 12 worst percentage returns out of 1000 daily returns for a share. 17,14,14,13,13,12,12,12,12,11,11,11
 
 - What is the one day 99% VaR?
-
 - This should correspond to the 10th worst loss.
-
 - What is the one day 99% expected shortfall?
-
 - This is the average of the 10 worst losses.
-
-- BEO3000 Risk Management Models
 
 
 ### Expected shortfall - Excel
 
-Step 1:Estimate return
+Step 1: Estimate return
 
 Step 2: Estimate VaR following the non-the parametric approach =PERCENTILE.EXC(range, 0.05)
 
@@ -98,7 +93,7 @@ Example:
 
 Or 
 $$
-\mathit{CVaR}=\dfrac1{1-c}\int_{-1}^{\mathit{Var}}xp(x)\mathrm{d}x
+\mathit{CVaR}=\dfrac1{1-c}\int_{-1}^{\mathit{VaR}}xp(x)\mathrm{d}x
 $$
 where: 
 
@@ -110,7 +105,7 @@ where:
 
 ### Market Efficiency
 
-- The extent to which market prices incorporate available information.
+- The extent to which market **prices incorporate available information**.
 
 - If prices do not fully incorporate information, opportunities exist to earn abnormal profits.
 
@@ -146,7 +141,7 @@ Why?
 
 - If price changes are dependent, the future changes can be predicted
 
-![image-20220712154007993](img/image-20220712154007993.png)
+<img src="img/image-20220712154007993.png" alt="image-20220712154007993" style="zoom:30%;" />
 
 #### Simple test of Weak-Form Efficiency using EXCEL
 

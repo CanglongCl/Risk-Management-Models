@@ -72,9 +72,9 @@ Solution:
 $$
 \begin{align}
 
-Rp &= W_A \cdot R_A+W_B\cdot R_B \\
-&= 0.49\times(0.011) + 0.51 \times(0.016) \\
-&= 0.0136 \\
+R_P &= W_A \cdot R_A+W_B\cdot R_B \\[1ex]
+&= 0.49\times(0.011) + 0.51 \times(0.016) \\[1ex]
+&= 0.0136 \\[1ex]
 &= 1.36\%  \\
 
 

@@ -58,11 +58,11 @@ $$
 
 - The compound rate of return over time. Measures the change in wealth overtime
 - It shows how the money grows ==over a specific period==
-- It is often used in investments and finance to ====reflect the steady growth rate of== invested funds over some past period
+- It is often used in investments and finance to ==reflect the steady growth rate of== invested funds over some past period
 
 $$
-\overline{\mathit{RR}_e}=\sqrt[n]{\prod^n_t\mathit{RR}_t}-1\\[2ex]
-\overline R=1-\overline{\mathit{RR}_e}
+\overline{\mathit{RR}}_e=\sqrt[n]{\prod^n_t\mathit{RR}_t}-1\\[2ex]
+\overline R=1-\overline{\mathit{RR}}_e
 $$
 
 - The geometric mean is defined as the nth root of the product resulting from multiplying a series of return relatives together
@@ -102,10 +102,10 @@ Where:
 
 Inflation-adjusted cumulative wealth
 $$
-\mathit{CWI}_{IA}=\mathit{CWI}/\mathit{CIINF}
+\mathit{CWI}_{\mathit{IA}}=\mathit{CWI}/\mathit{CIINF}
 $$
 
-- $\mathit{CWI}_{1A}$: the cumulative wealth index value for any asset on inflation-adjusted basis
+- $\mathit{CWI}_{\mathit{IA}}$: the cumulative wealth index value for any asset on inflation-adjusted basis
 - $\mathit{CWI}$: the cumulative wealth index for any asset on a nominal basis.
 - $\mathit{CIINF}$: the ending index value for inflation, calculated as $(1+\textrm{geometric rate of inflation})^n$, where n is the number of period considered. 
 
@@ -147,8 +147,6 @@ $$
 $$
 
 In Excel: `=stdev.s(cell range for returns)`
-
-
 
 ## Skewness & Kurtosis
 
